@@ -13,6 +13,8 @@
 		1F74C0242B5D7765004126F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F74C0222B5D7765004126F7 /* Main.storyboard */; };
 		1F74C0262B5D7766004126F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F74C0252B5D7766004126F7 /* Assets.xcassets */; };
 		1F74C0292B5D7766004126F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F74C0272B5D7766004126F7 /* LaunchScreen.storyboard */; };
+		1F74C0312B5D7905004126F7 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F74C0302B5D7905004126F7 /* AboutViewController.swift */; };
+		1F74C0332B5D9010004126F7 /* bullseye-icon-512x512-v15mvy0v.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F74C0322B5D9010004126F7 /* bullseye-icon-512x512-v15mvy0v.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		1F74C0252B5D7766004126F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F74C0282B5D7766004126F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F74C02A2B5D7766004126F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F74C0302B5D7905004126F7 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		1F74C0322B5D9010004126F7 /* bullseye-icon-512x512-v15mvy0v.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bullseye-icon-512x512-v15mvy0v.png"; path = "../../../../Downloads/bullseye-icon-512x512-v15mvy0v.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		1F74C01B2B5D7765004126F7 /* BullsEyeNew */ = {
 			isa = PBXGroup;
 			children = (
+				1F74C0322B5D9010004126F7 /* bullseye-icon-512x512-v15mvy0v.png */,
 				1F74C01C2B5D7765004126F7 /* AppDelegate.swift */,
 				1F74C01E2B5D7765004126F7 /* SceneDelegate.swift */,
 				1F74C0202B5D7765004126F7 /* ViewController.swift */,
@@ -63,6 +68,7 @@
 				1F74C0252B5D7766004126F7 /* Assets.xcassets */,
 				1F74C0272B5D7766004126F7 /* LaunchScreen.storyboard */,
 				1F74C02A2B5D7766004126F7 /* Info.plist */,
+				1F74C0302B5D7905004126F7 /* AboutViewController.swift */,
 			);
 			path = BullsEyeNew;
 			sourceTree = "<group>";
@@ -125,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F74C0332B5D9010004126F7 /* bullseye-icon-512x512-v15mvy0v.png in Resources */,
 				1F74C0292B5D7766004126F7 /* LaunchScreen.storyboard in Resources */,
 				1F74C0262B5D7766004126F7 /* Assets.xcassets in Resources */,
 				1F74C0242B5D7765004126F7 /* Main.storyboard in Resources */,
@@ -140,6 +147,7 @@
 			files = (
 				1F74C0212B5D7765004126F7 /* ViewController.swift in Sources */,
 				1F74C01D2B5D7765004126F7 /* AppDelegate.swift in Sources */,
+				1F74C0312B5D7905004126F7 /* AboutViewController.swift in Sources */,
 				1F74C01F2B5D7765004126F7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,8 +305,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -324,8 +332,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
